@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,75 +15,90 @@
     ------------>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
-    
+
+
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">!G</a>
+                <a class="navbar-brand" href="#">!G</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">Emails</a></li>
+                    <li><a href="#contact">!Google+</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Compte</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">Emails</a></li>
-            <li><a href="#contact">!Google+</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Compte</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
     </nav>
 
-<!-- LOGO -->
-<!-- SEARCH INPUT -->
-<!-- SEARCH BUTTONS -->
+    <!-- LOGO -->
+
+    <!-- SEARCH INPUT -->
+    <!-- SEARCH BUTTONS -->
 
     <!-- Begin page content -->
     <div class="container">
-      <div class="page-header">
-        <h1>!GOOGLE</h1>
-      </div>
+        <div class="page-header">
+            <h1 class="google_logo">
+                <span>!</span>
+                <span>G</span>
+                <span>o</span>
+                <span>o</span>
+                <span>g</span>
+                <span>l</span>
+                <span>e</span>
+            </h1>
+            <form class="google_input">
+                <input type="text" name="search_value" value="Search">
+            </form>
+        </div>
     </div>
 
-<!-- FOOTER -->
+    <!-- FOOTER -->
     <footer class="footer">
-      <div class="container container_footer">
-        <p class="text-muted">Publicité</p>
-        <p class="text-muted">Entreprise</p>
-        <p class="text-muted">A propos</p>
-        <p class="text-muted">Confidentialité</p>
-        <p class="text-muted">Conditions</p>
-        <p class="text-muted">Paramètres</p>
-     </div>
+        <div class="container container_footer">
+            <p class="text-muted">Publicité</p>
+            <p class="text-muted">Entreprise</p>
+            <p class="text-muted">A propos</p>
+            <p class="text-muted">Confidentialité</p>
+            <p class="text-muted">Conditions</p>
+            <p class="text-muted">Paramètres</p>
+        </div>
     </footer>
 
 
 
-    
 
-<!---------
+
+    <!---------
 SCRIPT 
----------->    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+---------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
