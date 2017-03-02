@@ -1,20 +1,23 @@
 /* Sticky footer 
 -------------------------------------------------- */
+
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
 }
 
 .container_footer {
@@ -22,22 +25,56 @@ body {
     justify-content: space-around;
 }
 
-/* 
+
+/* Body
 -------------------------------------------------- */
 
-body > .container {
-  padding: 60px 15px 0;
-}
-.container .text-muted {
-  margin: 20px 0;
+.google_logo {
+    width: 272px;
+    font-size: 4em;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -5px;
+    font-weight: bold;
 }
 
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+.google_logo>span {
+    display: inline-block;
+}
+
+span:nth-child(2),
+span:nth-child(5) {
+    color: #4285f4;
+}
+
+span:nth-child(3),
+span:nth-child(7) {
+    color: #DB4437;
+}
+
+span:nth-child(4) {
+    color: #F4B400;
+}
+
+span:nth-child(6) {
+    color: #0F9D58;
+}
+
+body>.container {
+    padding: 60px 15px 0;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 code {
-  font-size: 80%;
+    font-size: 80%;
 }
+
 0
