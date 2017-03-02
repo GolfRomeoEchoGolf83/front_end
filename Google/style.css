@@ -30,7 +30,6 @@ body {
 -------------------------------------------------- */
 
 .google_logo {
-    width: 272px;
     font-size: 4em;
     align-items: center;
     text-align: center;
@@ -62,7 +61,9 @@ span:nth-child(6) {
 
 .google_input {
     box-shadow: 0px 10px 10px #888888;
-    width: 272px;
+    width: 40%;
+    height: 30px;
+    margin-left: 30%;
 }
 
 .google_input>input {
